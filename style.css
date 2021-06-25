@@ -1,0 +1,25 @@
+.topnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-container{
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-direction:column;
+    flex-direction:column;
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-justify-content:space-around;
+    justify-content:space-around;
+    -webkit-align-items:center;
+    align-items:center;
+    padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+    }
+    p {
+        text-align: center;
+    }
